@@ -1,0 +1,273 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'express-partials',
+1 verbose cli   '--savegit',
+1 verbose cli   'remote',
+1 verbose cli   'add',
+1 verbose cli   'dianshang' ]
+2 info using npm@3.10.3
+3 info using node@v6.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData express-partials
+8 silly fetchPackageMetaData remote
+9 silly fetchPackageMetaData add
+10 silly fetchPackageMetaData dianshang
+11 silly fetchNamedPackageData express-partials
+12 silly mapToRegistry name express-partials
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'express-partials',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   escapedName: 'express-partials',
+15 silly mapToRegistry   name: 'express-partials',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/express-partials
+17 silly fetchNamedPackageData remote
+18 silly mapToRegistry name remote
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry data Result {
+21 silly mapToRegistry   raw: 'remote',
+21 silly mapToRegistry   scope: null,
+21 silly mapToRegistry   escapedName: 'remote',
+21 silly mapToRegistry   name: 'remote',
+21 silly mapToRegistry   rawSpec: '',
+21 silly mapToRegistry   spec: 'latest',
+21 silly mapToRegistry   type: 'tag' }
+22 silly mapToRegistry uri https://registry.npmjs.org/remote
+23 silly fetchNamedPackageData add
+24 silly mapToRegistry name add
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry data Result {
+27 silly mapToRegistry   raw: 'add',
+27 silly mapToRegistry   scope: null,
+27 silly mapToRegistry   escapedName: 'add',
+27 silly mapToRegistry   name: 'add',
+27 silly mapToRegistry   rawSpec: '',
+27 silly mapToRegistry   spec: 'latest',
+27 silly mapToRegistry   type: 'tag' }
+28 silly mapToRegistry uri https://registry.npmjs.org/add
+29 silly fetchNamedPackageData dianshang
+30 silly mapToRegistry name dianshang
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry data Result {
+33 silly mapToRegistry   raw: 'dianshang',
+33 silly mapToRegistry   scope: null,
+33 silly mapToRegistry   escapedName: 'dianshang',
+33 silly mapToRegistry   name: 'dianshang',
+33 silly mapToRegistry   rawSpec: '',
+33 silly mapToRegistry   spec: 'latest',
+33 silly mapToRegistry   type: 'tag' }
+34 silly mapToRegistry uri https://registry.npmjs.org/dianshang
+35 verbose request uri https://registry.npmjs.org/remote
+36 verbose request no auth needed
+37 info attempt registry request try #1 at 13:21:39
+38 verbose request id e6ad6a7a90426b5b
+39 http request GET https://registry.npmjs.org/remote
+40 verbose request uri https://registry.npmjs.org/add
+41 verbose request no auth needed
+42 info attempt registry request try #1 at 13:21:39
+43 http request GET https://registry.npmjs.org/add
+44 verbose request uri https://registry.npmjs.org/dianshang
+45 verbose request no auth needed
+46 info attempt registry request try #1 at 13:21:39
+47 http request GET https://registry.npmjs.org/dianshang
+48 verbose request uri https://registry.npmjs.org/express-partials
+49 verbose request no auth needed
+50 info attempt registry request try #1 at 13:21:39
+51 verbose etag W/"53b19a59-34b5"
+52 verbose lastModified Mon, 30 Jun 2014 17:11:53 GMT
+53 http request GET https://registry.npmjs.org/express-partials
+54 http 200 https://registry.npmjs.org/add
+55 verbose headers { server: 'nginx/1.10.1',
+55 verbose headers   'content-type': 'application/json',
+55 verbose headers   'last-modified': 'Tue, 15 Jul 2014 06:29:37 GMT',
+55 verbose headers   etag: 'W/"53c4ca51-2a4d"',
+55 verbose headers   'content-encoding': 'gzip',
+55 verbose headers   'cache-control': 'max-age=300',
+55 verbose headers   'content-length': '2617',
+55 verbose headers   'accept-ranges': 'bytes',
+55 verbose headers   date: 'Tue, 21 Nov 2017 05:21:40 GMT',
+55 verbose headers   via: '1.1 varnish',
+55 verbose headers   age: '0',
+55 verbose headers   connection: 'keep-alive',
+55 verbose headers   'x-served-by': 'cache-bur17535-BUR',
+55 verbose headers   'x-cache': 'MISS',
+55 verbose headers   'x-cache-hits': '0',
+55 verbose headers   'x-timer': 'S1511241700.319533,VS0,VE39',
+55 verbose headers   vary: 'Accept-Encoding, Accept' }
+56 silly get cb [ 200,
+56 silly get   { server: 'nginx/1.10.1',
+56 silly get     'content-type': 'application/json',
+56 silly get     'last-modified': 'Tue, 15 Jul 2014 06:29:37 GMT',
+56 silly get     etag: 'W/"53c4ca51-2a4d"',
+56 silly get     'content-encoding': 'gzip',
+56 silly get     'cache-control': 'max-age=300',
+56 silly get     'content-length': '2617',
+56 silly get     'accept-ranges': 'bytes',
+56 silly get     date: 'Tue, 21 Nov 2017 05:21:40 GMT',
+56 silly get     via: '1.1 varnish',
+56 silly get     age: '0',
+56 silly get     connection: 'keep-alive',
+56 silly get     'x-served-by': 'cache-bur17535-BUR',
+56 silly get     'x-cache': 'MISS',
+56 silly get     'x-cache-hits': '0',
+56 silly get     'x-timer': 'S1511241700.319533,VS0,VE39',
+56 silly get     vary: 'Accept-Encoding, Accept' } ]
+57 verbose get saving add to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\add\.cache.json
+58 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+59 http 304 https://registry.npmjs.org/express-partials
+60 verbose headers { date: 'Tue, 21 Nov 2017 05:21:40 GMT',
+60 verbose headers   via: '1.1 varnish',
+60 verbose headers   'cache-control': 'max-age=300',
+60 verbose headers   etag: 'W/"53b19a59-34b5"',
+60 verbose headers   age: '240',
+60 verbose headers   connection: 'keep-alive',
+60 verbose headers   'x-served-by': 'cache-bur17541-BUR',
+60 verbose headers   'x-cache': 'HIT',
+60 verbose headers   'x-cache-hits': '1',
+60 verbose headers   'x-timer': 'S1511241700.451779,VS0,VE1',
+60 verbose headers   vary: 'Accept-Encoding, Accept' }
+61 silly get cb [ 304,
+61 silly get   { date: 'Tue, 21 Nov 2017 05:21:40 GMT',
+61 silly get     via: '1.1 varnish',
+61 silly get     'cache-control': 'max-age=300',
+61 silly get     etag: 'W/"53b19a59-34b5"',
+61 silly get     age: '240',
+61 silly get     connection: 'keep-alive',
+61 silly get     'x-served-by': 'cache-bur17541-BUR',
+61 silly get     'x-cache': 'HIT',
+61 silly get     'x-cache-hits': '1',
+61 silly get     'x-timer': 'S1511241700.451779,VS0,VE1',
+61 silly get     vary: 'Accept-Encoding, Accept' } ]
+62 verbose etag https://registry.npmjs.org/express-partials from cache
+63 verbose get saving express-partials to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\express-partials\.cache.json
+64 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+65 http 200 https://registry.npmjs.org/remote
+66 verbose headers { server: 'nginx/1.10.3',
+66 verbose headers   'content-type': 'application/json',
+66 verbose headers   'last-modified': 'Mon, 09 Feb 2015 17:14:34 GMT',
+66 verbose headers   etag: 'W/"54d8eafa-671c"',
+66 verbose headers   'content-encoding': 'gzip',
+66 verbose headers   'cache-control': 'max-age=300',
+66 verbose headers   'content-length': '4175',
+66 verbose headers   'accept-ranges': 'bytes',
+66 verbose headers   date: 'Tue, 21 Nov 2017 05:21:40 GMT',
+66 verbose headers   via: '1.1 varnish',
+66 verbose headers   age: '0',
+66 verbose headers   connection: 'keep-alive',
+66 verbose headers   'x-served-by': 'cache-bur17536-BUR',
+66 verbose headers   'x-cache': 'MISS',
+66 verbose headers   'x-cache-hits': '0',
+66 verbose headers   'x-timer': 'S1511241700.441612,VS0,VE44',
+66 verbose headers   vary: 'Accept-Encoding, Accept' }
+67 silly get cb [ 200,
+67 silly get   { server: 'nginx/1.10.3',
+67 silly get     'content-type': 'application/json',
+67 silly get     'last-modified': 'Mon, 09 Feb 2015 17:14:34 GMT',
+67 silly get     etag: 'W/"54d8eafa-671c"',
+67 silly get     'content-encoding': 'gzip',
+67 silly get     'cache-control': 'max-age=300',
+67 silly get     'content-length': '4175',
+67 silly get     'accept-ranges': 'bytes',
+67 silly get     date: 'Tue, 21 Nov 2017 05:21:40 GMT',
+67 silly get     via: '1.1 varnish',
+67 silly get     age: '0',
+67 silly get     connection: 'keep-alive',
+67 silly get     'x-served-by': 'cache-bur17536-BUR',
+67 silly get     'x-cache': 'MISS',
+67 silly get     'x-cache-hits': '0',
+67 silly get     'x-timer': 'S1511241700.441612,VS0,VE44',
+67 silly get     vary: 'Accept-Encoding, Accept' } ]
+68 verbose get saving remote to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\remote\.cache.json
+69 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+70 http 404 https://registry.npmjs.org/dianshang
+71 verbose headers { 'content-type': 'application/json',
+71 verbose headers   'cache-control': 'max-age=0',
+71 verbose headers   'content-length': '2',
+71 verbose headers   'accept-ranges': 'bytes',
+71 verbose headers   date: 'Tue, 21 Nov 2017 05:21:40 GMT',
+71 verbose headers   via: '1.1 varnish',
+71 verbose headers   age: '0',
+71 verbose headers   connection: 'keep-alive',
+71 verbose headers   'x-served-by': 'cache-bur17535-BUR',
+71 verbose headers   'x-cache': 'MISS',
+71 verbose headers   'x-cache-hits': '0',
+71 verbose headers   'x-timer': 'S1511241700.460538,VS0,VE309',
+71 verbose headers   vary: 'Accept-Encoding' }
+72 silly get cb [ 404,
+72 silly get   { 'content-type': 'application/json',
+72 silly get     'cache-control': 'max-age=0',
+72 silly get     'content-length': '2',
+72 silly get     'accept-ranges': 'bytes',
+72 silly get     date: 'Tue, 21 Nov 2017 05:21:40 GMT',
+72 silly get     via: '1.1 varnish',
+72 silly get     age: '0',
+72 silly get     connection: 'keep-alive',
+72 silly get     'x-served-by': 'cache-bur17535-BUR',
+72 silly get     'x-cache': 'MISS',
+72 silly get     'x-cache-hits': '0',
+72 silly get     'x-timer': 'S1511241700.460538,VS0,VE309',
+72 silly get     vary: 'Accept-Encoding' } ]
+73 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/dianshang
+73 silly fetchPackageMetaData     at makeError (D:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+73 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
+73 silly fetchPackageMetaData     at Request._callback (D:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+73 silly fetchPackageMetaData     at Request.self.callback (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:200:22)
+73 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+73 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+73 silly fetchPackageMetaData     at Request.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1067:10)
+73 silly fetchPackageMetaData     at emitOne (events.js:101:20)
+73 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+73 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:988:12)
+73 silly fetchPackageMetaData  error for dianshang { Error: Registry returned 404 for GET on https://registry.npmjs.org/dianshang
+73 silly fetchPackageMetaData     at makeError (D:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+73 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
+73 silly fetchPackageMetaData     at Request._callback (D:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+73 silly fetchPackageMetaData     at Request.self.callback (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:200:22)
+73 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+73 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+73 silly fetchPackageMetaData     at Request.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1067:10)
+73 silly fetchPackageMetaData     at emitOne (events.js:101:20)
+73 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+73 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:988:12) pkgid: 'dianshang', statusCode: 404, code: 'E404' }
+74 silly rollbackFailedOptional Starting
+75 silly rollbackFailedOptional Finishing
+76 silly runTopLevelLifecycles Starting
+77 silly runTopLevelLifecycles Finishing
+78 silly install printInstalled
+79 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/dianshang
+79 verbose stack     at makeError (D:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+79 verbose stack     at CachingRegistryClient.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
+79 verbose stack     at Request._callback (D:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+79 verbose stack     at Request.self.callback (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:200:22)
+79 verbose stack     at emitTwo (events.js:106:13)
+79 verbose stack     at Request.emit (events.js:191:7)
+79 verbose stack     at Request.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1067:10)
+79 verbose stack     at emitOne (events.js:101:20)
+79 verbose stack     at Request.emit (events.js:188:7)
+79 verbose stack     at IncomingMessage.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:988:12)
+80 verbose statusCode 404
+81 verbose pkgid dianshang
+82 verbose cwd C:\Users\Administrator\Desktop\毕业项目 -- vue - 副本
+83 error Windows_NT 6.1.7601
+84 error argv "D:\\Program Files\\nodejs\\node.exe" "D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "express-partials" "--savegit" "remote" "add" "dianshang"
+85 error node v6.5.0
+86 error npm  v3.10.3
+87 error code E404
+88 error 404 Registry returned 404 for GET on https://registry.npmjs.org/dianshang
+89 error 404
+90 error 404 'dianshang' is not in the npm registry.
+91 error 404 You should bug the author to publish it (or use the name yourself!)
+92 error 404 Note that you can also install from a
+93 error 404 tarball, folder, http url, or git url.
+94 verbose exit [ 1, true ]

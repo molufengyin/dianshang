@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品展示</title>
+    <style>
+        h1{
+            color:#00B7FF;
+        }
+        a{
+            color: #00B7FF;
+            text-decoration: none;
+            font-weight: 700;
+        }
+        ul{
+            overflow: hidden;
+            border: solid 1px red;
+            padding: 0;
+        }
+        li{
+            width: 140px;
+            padding: none;
+            float: left;
+            margin-right: 20px;
+            border: solid 1px #00B7FF;
+            list-style: none;
+            padding: 10px;
+            background: #00B7FF;
+            margin-bottom: 20px;
+        }
+        li i{
+            font-style: normal;
+            color:green;
+        }
+        li img{
+            width: 100px;
+        }
+        li p{
+            font-size: 12px;
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        <h1> 商品展示 </h1>
+        <a href="/add">商品添加</a>
+        <ul>
+            <% goods.forEach(function (good) { %>
+            <li>
+                <h4><%= good.productName %></h4>
+                <i> <%= good.salePrice %></i>
+                <p> <%= good.productDes %></p>
+                <img src="/images/<%= good.productImage %> " alt="">
+            </li>
+            <% }) %>
+        </ul>
+    </div>
+
+</body>
+<script>
+
+</script>
+
+</html>
